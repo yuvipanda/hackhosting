@@ -11,7 +11,7 @@ Vagrant.configure(2) do |config|
   config.vm.network "public_network"
   # Install puppet!
   config.vm.provision "shell", path: 'bootstrap/bootstrap.bash'
-  config.vm.provision "puppet"
+  config.vm.provision "puppet", manifest_file: '', module_path: 'modules/'
 
    config.vm.provider "virtualbox" do |vb|
      vb.memory = "1024"
