@@ -38,3 +38,4 @@ class apache::mod::wsgi (
     notify  => Class['apache::service'],
   }
 }
+

@@ -75,3 +75,4 @@ describe 'apache::mod::authnz_ldap', :type => :class do
   end # Redhat
 
 end
+

@@ -19,7 +19,7 @@ describe 'concat::fragment', :type => :define do
     id               = 'root'
     gid              = 'root'
     if p[:ensure] == 'absent'
-      safe_ensure = p[:ensure]
+      safe_ensure = p[:ensure] 
     else
       safe_ensure = 'file'
     end

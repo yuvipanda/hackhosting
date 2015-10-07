@@ -16,7 +16,7 @@ Puppet::Type.newtype(:a2mod) do
 
       defaultto { "mod_#{@resource[:name]}.so" }
     end
-
+ 
     newparam(:identifier) do
       desc "Module identifier string used by LoadModule. Default: module-name_module"
 

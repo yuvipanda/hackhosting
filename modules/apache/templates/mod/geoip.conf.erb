@@ -22,3 +22,4 @@ GeoIPScanProxyHeaderField <%= @scan_proxy_header_field %>
 <% if ! @use_last_xforwarededfor_ip.nil? -%>
 GeoIPUseLastXForwardedForIP <%= scope.function_bool2httpd([@use_last_xforwarededfor_ip]) %>
 <% end -%>
+

@@ -154,3 +154,4 @@ describe 'concat::fragment source' do
     end
   end
 end
+

@@ -11,3 +11,4 @@ class apache::mod::suphp (
     notify  => Class['apache::service'],
   }
 }
+

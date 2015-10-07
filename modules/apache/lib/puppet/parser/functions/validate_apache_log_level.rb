@@ -10,7 +10,7 @@ module Puppet::Parser::Functions
         validate_apache_loglevel('warn ssl_module:info')
 
     Expected to be used from the main or vhost.
-
+    
     Might be used from directory too later as apaceh supports that
 
     ENDHEREDOC

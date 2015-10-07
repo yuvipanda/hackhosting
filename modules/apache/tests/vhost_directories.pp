@@ -41,3 +41,4 @@ apache::vhost { 'files.example.net':
     },
   ],
 }
+

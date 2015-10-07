@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe 'concat', :type => :define do
 
-  shared_examples 'concat' do |title, params, id|
+  shared_examples 'concat' do |title, params, id| 
     params = {} if params.nil?
     id = 'root' if id.nil?
 
@@ -95,7 +95,7 @@ describe 'concat', :type => :define do
             "-o \"#{concatdir}/#{safe_name}/fragments.concat.out\" " +
             "-d \"#{concatdir}/#{safe_name}\""
 
-      # flag order: fragdir, warnflag, forceflag, orderflag, newlineflag
+      # flag order: fragdir, warnflag, forceflag, orderflag, newlineflag 
       if p.has_key?(:warn)
         case p[:warn]
         when TrueClass

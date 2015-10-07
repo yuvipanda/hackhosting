@@ -24,13 +24,13 @@ The following table summarises the current *default versions* and
 `PassengerRoot` settings for the operating systems supported by
 puppetlabs-apache:
 
-OS               | Passenger version  | `PassengerRoot`
+OS               | Passenger version  | `PassengerRoot` 
 ---------------- | ------------------ | ----------------
 Debian 7         | 3.0.13             | /usr
 Debian 8         | 4.0.53             | /usr/lib/ruby/vendor_ruby/phusion_passenger/locations.ini
 Ubuntu 12.04     | 2.2.11             | /usr
-Ubuntu 14.04     | 4.0.37             | /usr/lib/ruby/vendor_ruby/phusion_passenger/locations.ini
-RHEL with EPEL6  | 3.0.21             | /usr/lib/ruby/gems/1.8/gems/passenger-3.0.21
+Ubuntu 14.04     | 4.0.37             | /usr/lib/ruby/vendor_ruby/phusion_passenger/locations.ini 
+RHEL with EPEL6  | 3.0.21             | /usr/lib/ruby/gems/1.8/gems/passenger-3.0.21 
 
 As mentioned in `README.md` there are no compatible packages available for
 RHEL/CentOS 5 or RHEL/CentOS 7.
@@ -98,13 +98,13 @@ directive, with underscores instead of CamelCase.
 ## Parameters used with passenger.conf
 
 If you pass a default value to `apache::mod::passenger` it will be ignored and
-not passed through to the configuration file.
+not passed through to the configuration file. 
 
 ### passenger_root
 
 The location to the Phusion Passenger root directory. This configuration option
 is essential to Phusion Passenger, and allows Phusion Passenger to locate its
-own data files.
+own data files. 
 
 The default depends on the Passenger version and the means of installation. See
 the above section on operating system support, versions and packages for more

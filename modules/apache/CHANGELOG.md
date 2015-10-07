@@ -264,7 +264,7 @@ upgraded via the puppet module command.
 ### Summary
 
 This release primarily focuses on extending the httpd 2.4 support, tested
-through adding RHEL7 and Ubuntu 14.04 support.  It also includes Passenger
+through adding RHEL7 and Ubuntu 14.04 support.  It also includes Passenger 
 4 support, as well as several new modules and important bugfixes.
 
 #### Features
@@ -306,7 +306,7 @@ modulepath.
 #### Known Bugs
 * By default, the version of Apache that ships with Ubuntu 10.04 does not work with `wsgi_import_script`.
 * SLES is unsupported.
-
+ 
 ## 2014-03-04 Supported Release 1.0.0
 ### Summary
 
@@ -382,7 +382,7 @@ This release adds FreeBSD osfamily support and various other improvements to som
 - Add support for overriding ErrorDocument
 - Add support for AliasMatch directives
 - Disable default "allow from all" in vhost-directories
-- Add WSGIPythonPath as an optional parameter to mod_wsgi.
+- Add WSGIPythonPath as an optional parameter to mod_wsgi. 
 - Add mod_rpaf support
 - Add directives: IndexOptions, IndexOrderDefault
 - Add ability to include additional external configurations in vhost
