@@ -1,3 +1,12 @@
 [submodule "modules/dokuwiki/files/plugins/captcha"]
 	path = modules/dokuwiki/files/plugins/captcha
 	url = https://github.com/splitbrain/dokuwiki-plugin-captcha.git
+[submodule "modules/dokuwiki/files/plugins/bureaucracy"]
+	path = modules/dokuwiki/files/plugins/bureaucracy
+	url = https://github.com/splitbrain/dokuwiki-plugin-bureaucracy.git
+[submodule "modules/dokuwiki/files/plugins/sqlite"]
+	path = modules/dokuwiki/files/plugins/sqlite
+	url = https://github.com/cosmocode/sqlite.git
+[submodule "modules/dokuwiki/files/plugins/data"]
+	path = modules/dokuwiki/files/plugins/data
+	url = https://github.com/splitbrain/dokuwiki-plugin-data.git
