@@ -10,3 +10,33 @@
 [submodule "modules/dokuwiki/files/plugins/data"]
 	path = modules/dokuwiki/files/plugins/data
 	url = https://github.com/splitbrain/dokuwiki-plugin-data.git
+[submodule "modules/dokuwiki/files/plugins/creole"]
+	path = modules/dokuwiki/files/plugins/creole
+	url = https://github.com/dokufreaks/plugin-creole.git
+[submodule "modules/dokuwiki/files/plugins/editx"]
+	path = modules/dokuwiki/files/plugins/editx
+	url = https://github.com/danny0838/dokuwiki-plugin-editx.git
+[submodule "modules/dokuwiki/files/plugins/edittable"]
+	path = modules/dokuwiki/files/plugins/edittable
+	url = https://github.com/cosmocode/edittable.git
+[submodule "modules/dokuwiki/files/plugins/folded"]
+	path = modules/dokuwiki/files/plugins/folded
+	url = https://github.com/dokufreaks/plugin-folded.git
+[submodule "modules/dokuwiki/files/plugins/pagelist"]
+	path = modules/dokuwiki/files/plugins/pagelist
+	url = https://github.com/dokufreaks/plugin-pagelist.git
+[submodule "modules/dokuwiki/files/plugins/tag"]
+	path = modules/dokuwiki/files/plugins/tag
+	url = https://github.com/dokufreaks/plugin-tag.git
+[submodule "modules/dokuwiki/files/plugins/include"]
+	path = modules/dokuwiki/files/plugins/include
+	url = https://github.com/dokufreaks/plugin-include.git
+[submodule "modules/dokuwiki/files/plugins/blockquote"]
+	path = modules/dokuwiki/files/plugins/blockquote
+	url = https://github.com/dokufreaks/plugin-blockquote.git
+[submodule "modules/dokuwiki/files/plugins/sidebarng"]
+	path = modules/dokuwiki/files/plugins/sidebarng
+	url = https://github.com/chimeric/dokuwiki-plugin-sidebarng.git
+[submodule "modules/dokuwiki/files/plugins/twitter"]
+	path = modules/dokuwiki/files/plugins/twitter
+	url = https://github.com/mprins/dokuwiki-twitter.git
