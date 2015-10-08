@@ -30,6 +30,24 @@ define dokuwiki(
         require => Vcsrepo[$docroot],
     }
 
+    # Place for our custom config!
+    file { "${docroot}/conf/local.d":
+        ensure  => directory,
+        owner   => 'www-data',
+        group   => 'www-data',
+        mode    => '0555',
+        require => Vcsrepo[$docroot],
+    }
+
+    file { "${docroot}/conf/local.protected.php":
+        ensure  => present,
+        source  => 'puppet:///modules/dokuwiki/local.protected.php',
+        owner   => 'www-data',
+        group   => 'www-data',
+        mode    => '0444',
+        require => Vcsrepo[$docroot],
+    }
+
     # Setup the apache site only once the .htaccess is in place
     apache::vhost { $hostname:
         docroot     => $docroot,
