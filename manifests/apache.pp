@@ -5,6 +5,10 @@ class standard::apache {
     }
 
     include ::apache::mod::php
+
+    ensure_packages([
+        'php5-gd',
+    ])
 }
 
 class standard::packages {
